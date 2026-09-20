@@ -7,7 +7,9 @@ import {
   getUniversitiesByType,
   getFaculties,
   searchUniversities,
-  toSelectOptions
+  toSelectOptions,
+  getDistricts,
+  getInstitutionTypes
 } from '../src/index';
 
 describe('edu-sl: Universities & Higher Education Dataset', () => {
@@ -112,5 +114,66 @@ describe('edu-sl: Universities & Higher Education Dataset', () => {
     const faculties = getFaculties('UOM');
     const facultyOptions = toSelectOptions(faculties, 'name', 'id');
     expect(facultyOptions.length).toBeGreaterThanOrEqual(5);
+  });
+
+  it('should find university by Sinhala or Tamil official name directly', () => {
+    const uocBySi = getUniversity('කොළඹ විශ්වවිද්‍යාලය');
+    expect(uocBySi).toBeDefined();
+    expect(uocBySi?.code).toBe('UOC');
+
+    const uomByTa = getUniversity('மொறட்டுவ பல்கலைக்கழகம்');
+    expect(uomByTa).toBeDefined();
+    expect(uomByTa?.code).toBe('UOM');
+
+    // Invalid or empty codes
+    expect(getUniversity('')).toBeUndefined();
+    expect(getUniversity('NON_EXISTENT_UNI_XYZ')).toBeUndefined();
+  });
+
+  it('should support search by faculty and handle edge cases', () => {
+    const computingUnis = searchUniversities('Computing');
+    expect(computingUnis.length).toBeGreaterThan(0);
+    expect(computingUnis.some((u) => u.code === 'UOC')).toBe(true);
+
+    // Empty search query
+    expect(searchUniversities('')).toEqual([]);
+    expect(searchUniversities('   ')).toEqual([]);
+
+    // Non-existent search
+    expect(searchUniversities('XYZ_NON_EXISTENT_QUERY')).toEqual([]);
+  });
+
+  it('should safely handle defensive toSelectOptions edge cases', () => {
+    const safeEmpty = toSelectOptions(undefined as any, 'name', 'code');
+    expect(safeEmpty).toEqual([]);
+
+    const safeNonArray = toSelectOptions(null as any, 'name', 'code');
+    expect(safeNonArray).toEqual([]);
+  });
+
+  it('should list all institution types and available districts', () => {
+    const types = getInstitutionTypes();
+    expect(types).toContain('state');
+    expect(types).toContain('private');
+    expect(types).toContain('defense');
+
+    const districts = getDistricts();
+    expect(districts.length).toBeGreaterThan(5);
+    expect(districts).toContain('Colombo');
+    expect(districts).toContain('Kandy');
+    expect(districts).toContain('Matara');
+    expect(Object.isFrozen(districts)).toBe(true);
+  });
+
+  it('should not contain any leftover console.log statements in source code', async () => {
+    const fs = await import('fs');
+    const path = await import('path');
+    const srcDir = path.resolve(__dirname, '../src');
+    const files = fs.readdirSync(srcDir).filter((f) => f.endsWith('.ts'));
+
+    for (const file of files) {
+      const content = fs.readFileSync(path.join(srcDir, file), 'utf-8');
+      expect(content).not.toMatch(/console\.(log|debug|warn|error)\(/);
+    }
   });
 });
