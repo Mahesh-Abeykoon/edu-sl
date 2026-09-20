@@ -87,22 +87,22 @@ Copy and paste this template when adding an institution:
   },
   "faculties": [
     {
-      "id": "applied-sciences",
-      "name_en": "Faculty of Applied Sciences",
-      "name_si": "ව්‍යවහාරික විද්‍යා පීඨය",
-      "name_ta": "பிரயோக விஞ்ஞான பீடம்"
-    },
-    {
       "id": "engineering",
       "name_en": "Faculty of Engineering",
       "name_si": "ඉංජිනේරු පීඨය",
       "name_ta": "பொறியியல் பீடம்"
     },
     {
-      "id": "management",
-      "name_en": "Faculty of Management Studies & Commerce",
-      "name_si": "කළමනාකරණ අධ්‍යයන හා වාණිජ විද්‍යා පීඨය",
-      "name_ta": "முகாமைத்துவக் கற்கைகள் மற்றும் வர்த்தக பீடம்"
+      "id": "technology",
+      "name_en": "Faculty of Technology",
+      "name_si": "තාක්ෂණ පීඨය",
+      "name_ta": "தொழில்நுட்ப பீடம்"
+    },
+    {
+      "id": "science",
+      "name_en": "Faculty of Science",
+      "name_si": "විද්‍යා පීඨය",
+      "name_ta": "விஞ்ஞானப் பீடம்"
     },
     {
       "id": "humanities",
