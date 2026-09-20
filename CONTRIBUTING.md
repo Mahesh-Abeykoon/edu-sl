@@ -63,34 +63,34 @@ Copy and paste this template when adding an institution:
 
 ```json
 {
-  "id": "sliit",
-  "code": "SLIIT",
-  "name_en": "Sri Lanka Institute of Information Technology",
-  "name_si": "ශ්‍රී ලංකා තොරතුරු තාක්ෂණ ආයතනය",
-  "name_ta": "இலங்கை தகவல் தொழில்நுட்ப நிறுவனம்",
-  "abbreviation": "SLIIT",
-  "type": "private",
+  "id": "usj",
+  "code": "USJ",
+  "name_en": "University of Sri Jayewardenepura",
+  "name_si": "ශ්‍රී ජයවර්ධනපුර විශ්වවිද්‍යාලය",
+  "name_ta": "ஸ்ரீ ஜயவர்த்தனபுர பல்கலைக்கழகம்",
+  "abbreviation": "USJ",
+  "type": "state",
   "ugc_recognized": true,
-  "established_year": 1999,
-  "website": "https://www.sliit.lk",
+  "established_year": 1958,
+  "website": "https://www.sjp.ac.lk",
   "contact": {
-    "phone": "+94 11 754 4801",
-    "email": "info@sliit.lk"
+    "phone": "+94 11 280 2022",
+    "email": "info@sjp.ac.lk"
   },
   "location": {
     "district": "Colombo",
-    "city": "Malabe",
-    "postal_code": "10115",
-    "address": "New Kandy Road, Malabe 10115",
-    "latitude": 6.9147,
-    "longitude": 79.9729
+    "city": "Nugegoda",
+    "postal_code": "10250",
+    "address": "Gangodawila, Nugegoda 10250",
+    "latitude": 6.8529,
+    "longitude": 79.9038
   },
   "faculties": [
     {
-      "id": "computing",
-      "name_en": "Faculty of Computing",
-      "name_si": "පරිගණක පීඨය",
-      "name_ta": "கணினி பீடம்"
+      "id": "applied-sciences",
+      "name_en": "Faculty of Applied Sciences",
+      "name_si": "ව්‍යවහාරික විද්‍යා පීඨය",
+      "name_ta": "பிரயோக விஞ்ஞான பீடம்"
     },
     {
       "id": "engineering",
@@ -99,16 +99,16 @@ Copy and paste this template when adding an institution:
       "name_ta": "பொறியியல் பீடம்"
     },
     {
-      "id": "business",
-      "name_en": "SLIIT Business School",
-      "name_si": "ව්‍යාපාරික පීඨය",
-      "name_ta": "வணிகப் பீடம்"
+      "id": "management",
+      "name_en": "Faculty of Management Studies & Commerce",
+      "name_si": "කළමනාකරණ අධ්‍යයන හා වාණිජ විද්‍යා පීඨය",
+      "name_ta": "முகாமைத்துவக் கற்கைகள் மற்றும் வர்த்தக பீடம்"
     },
     {
-      "id": "humanities-sciences",
-      "name_en": "Faculty of Humanities & Sciences",
-      "name_si": "මානව ශාස්ත්‍ර හා විද්‍යා පීඨය",
-      "name_ta": "மனிதநேய மற்றும் அறிவியல் பீடம்"
+      "id": "humanities",
+      "name_en": "Faculty of Humanities & Social Sciences",
+      "name_si": "මානව ශාස්ත්‍ර හා සමාජයීය විද්‍යා පීඨය",
+      "name_ta": "மானிடவியல் மற்றும் சமூக விஞ்ஞான பீடம்"
     }
   ]
 }
@@ -120,12 +120,12 @@ Copy and paste this template when adding an institution:
 
 | Field | Type | Description | Allowed / Example Values |
 | :--- | :--- | :--- | :--- |
-| `id` | `string` | Unique lowercase slug | `"uoc"`, `"sliit"`, `"kdu"` |
-| `code` | `string` | Official uppercase acronym | `"UOC"`, `"SLIIT"`, `"KDU"` |
-| `name_en` | `string` | Official name in English | `"University of Colombo"` |
-| `name_si` | `string` | Official name in Sinhala (සිංහල) | `"කොළඹ විශ්වවිද්‍යාලය"` |
-| `name_ta` | `string` | Official name in Tamil (தமிழ்) | `"கொழும்பு பல்கலைக்கழகம்"` |
-| `abbreviation` | `string` | Familiar short form / abbreviation | `"UoC"`, `"UoP"`, `"SLIIT"` |
+| `id` | `string` | Unique lowercase slug | `"usj"`, `"uoc"`, `"sliit"` |
+| `code` | `string` | Official uppercase acronym | `"USJ"`, `"UOC"`, `"SLIIT"` |
+| `name_en` | `string` | Official name in English | `"University of Sri Jayewardenepura"` |
+| `name_si` | `string` | Official name in Sinhala (සිංහල) | `"ශ්‍රී ජයවර්ධනපුර විශ්වවිද්‍යාලය"` |
+| `name_ta` | `string` | Official name in Tamil (தமிழ்) | `"ஸ்ரீ ஜயவர்த்தனபுர பல்கலைக்கழகம்"` |
+| `abbreviation` | `string` | Familiar short form / abbreviation | `"USJ"`, `"UoC"`, `"UoP"` |
 | `type` | `string` | Classification category | `'state'`, `'private'`, `'defense'`, `'semi-government'`, `'postgraduate'`, `'vocational'` |
 | `ugc_recognized` | `boolean` | Recognized or approved by UGC Sri Lanka | `true` or `false` |
 | `established_year` | `number` | Year of founding | `1921` |
