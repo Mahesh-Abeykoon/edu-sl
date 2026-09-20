@@ -1,0 +1,673 @@
+[
+  {
+    "id": "uoc",
+    "code": "UOC",
+    "name_en": "University of Colombo",
+    "name_si": "කොළඹ විශ්වවිද්‍යාලය",
+    "name_ta": "கொழும்பு பல்கலைக்கழகம்",
+    "abbreviation": "UoC",
+    "type": "state",
+    "ugc_recognized": true,
+    "established_year": 1921,
+    "website": "https://cmb.ac.lk",
+    "contact": {
+      "phone": "+94 11 258 1835",
+      "email": "info@cmb.ac.lk"
+    },
+    "location": {
+      "district": "Colombo",
+      "city": "Colombo 3",
+      "postal_code": "00300",
+      "address": "94 Cumaratunga Munidasa Mawatha, Colombo 00300",
+      "latitude": 6.9000,
+      "longitude": 79.8588
+    },
+    "faculties": [
+      { "id": "arts", "name_en": "Faculty of Arts", "name_si": "කලා පීඨය", "name_ta": "கலை பீடம்" },
+      { "id": "education", "name_en": "Faculty of Education", "name_si": "අධ්‍යාපන පීඨය", "name_ta": "கல்விப் பீடம்" },
+      { "id": "law", "name_en": "Faculty of Law", "name_si": "නීති පීඨය", "name_ta": "சட்டப் பீடம்" },
+      { "id": "management", "name_en": "Faculty of Management & Finance", "name_si": "කළමනාකරණ හා මූල්‍ය පීඨය", "name_ta": "முகாமைத்துவ மற்றும் நிதி பீடம்" },
+      { "id": "medicine", "name_en": "Faculty of Medicine", "name_si": "වෛද්‍ය පීඨය", "name_ta": "மருத்துவப் பீடம்" },
+      { "id": "science", "name_en": "Faculty of Science", "name_si": "විද්‍යා පීඨය", "name_ta": "விஞ்ஞானப் பீடம்" },
+      { "id": "technology", "name_en": "Faculty of Technology", "name_si": "තාක්ෂණ පීඨය", "name_ta": "தொழில்நுட்ப பீடம்" },
+      { "id": "nursing", "name_en": "Faculty of Nursing", "name_si": "හෙද පීඨය", "name_ta": "தாதியர் பீடம்" },
+      { "id": "ucsc", "name_en": "University of Colombo School of Computing", "name_si": "පරිගණක අධ්‍යයන අංශය", "name_ta": "கணனி கற்கைகள் பாடசாலை" }
+    ]
+  },
+  {
+    "id": "uop",
+    "code": "UOP",
+    "name_en": "University of Peradeniya",
+    "name_si": "පේරාදෙණිය විශ්වවිද්‍යාලය",
+    "name_ta": "பேராதனைப் பல்கலைக்கழகம்",
+    "abbreviation": "UoP",
+    "type": "state",
+    "ugc_recognized": true,
+    "established_year": 1942,
+    "website": "https://www.pdn.ac.lk",
+    "contact": {
+      "phone": "+94 81 238 8301",
+      "email": "inquiries@pdn.ac.lk"
+    },
+    "location": {
+      "district": "Kandy",
+      "city": "Peradeniya",
+      "postal_code": "20400",
+      "address": "Galaha Road, Peradeniya 20400",
+      "latitude": 7.2549,
+      "longitude": 80.5960
+    },
+    "faculties": [
+      { "id": "agriculture", "name_en": "Faculty of Agriculture", "name_si": "කෘෂිකර්ම පීඨය", "name_ta": "விவசாய பீடம்" },
+      { "id": "allied-health", "name_en": "Faculty of Allied Health Sciences", "name_si": "සම සෞඛ්‍ය විද්‍යා පීඨය", "name_ta": "இணைந்த சுகாதார விஞ்ஞான பீடம்" },
+      { "id": "arts", "name_en": "Faculty of Arts", "name_si": "කලා පීඨය", "name_ta": "கலை பீடம்" },
+      { "id": "dental", "name_en": "Faculty of Dental Sciences", "name_si": "දන්ත වෛද්‍ය පීඨය", "name_ta": "பல் மருத்துவ பீடம்" },
+      { "id": "engineering", "name_en": "Faculty of Engineering", "name_si": "ඉංජිනේරු පීඨය", "name_ta": "பொறியியல் பீடம்" },
+      { "id": "management", "name_en": "Faculty of Management", "name_si": "කළමනාකරණ පීඨය", "name_ta": "முகாமைத்துவ பீடம்" },
+      { "id": "medicine", "name_en": "Faculty of Medicine", "name_si": "වෛද්‍ය පීඨය", "name_ta": "மருத்துவப் பீடம்" },
+      { "id": "science", "name_en": "Faculty of Science", "name_si": "විද්‍යා පීඨය", "name_ta": "விஞ்ஞானப் பீடம்" },
+      { "id": "vet", "name_en": "Faculty of Veterinary Medicine & Animal Science", "name_si": "පශු වෛද්‍ය පීඨය", "name_ta": "கால்நடை மருத்துவ பீடம்" }
+    ]
+  },
+  {
+    "id": "uom",
+    "code": "UOM",
+    "name_en": "University of Moratuwa",
+    "name_si": "මොරටුව විශ්වවිද්‍යාලය",
+    "name_ta": "மொறட்டுவ பல்கலைக்கழகம்",
+    "abbreviation": "UoM",
+    "type": "state",
+    "ugc_recognized": true,
+    "established_year": 1978,
+    "website": "https://uom.lk",
+    "contact": {
+      "phone": "+94 11 265 0301",
+      "email": "info@uom.lk"
+    },
+    "location": {
+      "district": "Colombo",
+      "city": "Moratuwa",
+      "postal_code": "10400",
+      "address": "Bandaranayake Mawatha, Katubedda, Moratuwa 10400",
+      "latitude": 6.7969,
+      "longitude": 79.9018
+    },
+    "faculties": [
+      { "id": "architecture", "name_en": "Faculty of Architecture", "name_si": "ගෘහ නිර්මාණ ශිල්ප පීඨය", "name_ta": "கட்டிடக்கலை பீடம்" },
+      { "id": "business", "name_en": "Faculty of Business", "name_si": "ව්‍යාපාර අධ්‍යයන පීඨය", "name_ta": "வணிக பீடம்" },
+      { "id": "engineering", "name_en": "Faculty of Engineering", "name_si": "ඉංජිනේරු පීඨය", "name_ta": "பொறியியல் பீடம்" },
+      { "id": "it", "name_en": "Faculty of Information Technology", "name_si": "තොරතුරු තාක්ෂණ පීඨය", "name_ta": "தகவல் தொழில்நுட்ப பீடம்" },
+      { "id": "medicine", "name_en": "Faculty of Medicine", "name_si": "වෛද්‍ය පීඨය", "name_ta": "மருத்துவப் பீடம்" }
+    ]
+  },
+  {
+    "id": "uok",
+    "code": "UOK",
+    "name_en": "University of Kelaniya",
+    "name_si": "කැලණිය විශ්වවිද්‍යාලය",
+    "name_ta": "களனிப் பல்கலைக்கழகம்",
+    "abbreviation": "UoK",
+    "type": "state",
+    "ugc_recognized": true,
+    "established_year": 1959,
+    "website": "https://www.kln.ac.lk",
+    "contact": {
+      "phone": "+94 11 290 3903",
+      "email": "info@kln.ac.lk"
+    },
+    "location": {
+      "district": "Gampaha",
+      "city": "Kelaniya",
+      "postal_code": "11600",
+      "address": "Peliyagoda, Kelaniya 11600",
+      "latitude": 6.9744,
+      "longitude": 79.9161
+    },
+    "faculties": [
+      { "id": "commerce", "name_en": "Faculty of Commerce & Management Studies", "name_si": "වාණිජ හා කළමනාකරණ අධ්‍යයන පීඨය", "name_ta": "வர்த்தக மற்றும் முகாமைத்துவக் கற்கைகள் பீடம்" },
+      { "id": "computing", "name_en": "Faculty of Computing & Technology", "name_si": "පරිගණක හා තාක්ෂණ පීඨය", "name_ta": "கணினி மற்றும் தொழில்நுட்ப பீடம்" },
+      { "id": "humanities", "name_en": "Faculty of Humanities", "name_si": "මානව ශාස්ත්‍ර පීඨය", "name_ta": "மானிடவியல் பீடம்" },
+      { "id": "medicine", "name_en": "Faculty of Medicine", "name_si": "වෛද්‍ය පීඨය", "name_ta": "மருத்துவப் பீடம்" },
+      { "id": "science", "name_en": "Faculty of Science", "name_si": "විද්‍යා පීඨය", "name_ta": "விஞ்ஞானப் பீடம்" },
+      { "id": "social-sciences", "name_en": "Faculty of Social Sciences", "name_si": "සමාජයීය විද්‍යා පීඨය", "name_ta": "சமூக விஞ்ஞான பீடம்" }
+    ]
+  },
+  {
+    "id": "usj",
+    "code": "USJ",
+    "name_en": "University of Sri Jayewardenepura",
+    "name_si": "ශ්‍රී ජයවර්ධනපුර විශ්වවිද්‍යාලය",
+    "name_ta": "ஸ்ரீ ஜயவர்த்தனபுர பல்கலைக்கழகம்",
+    "abbreviation": "USJ",
+    "type": "state",
+    "ugc_recognized": true,
+    "established_year": 1958,
+    "website": "https://www.sjp.ac.lk",
+    "contact": {
+      "phone": "+94 11 280 2022",
+      "email": "info@sjp.ac.lk"
+    },
+    "location": {
+      "district": "Colombo",
+      "city": "Nugegoda",
+      "postal_code": "10250",
+      "address": "Gangodawila, Nugegoda 10250",
+      "latitude": 6.8529,
+      "longitude": 79.9038
+    },
+    "faculties": [
+      { "id": "applied-sciences", "name_en": "Faculty of Applied Sciences", "name_si": "ව්‍යවහාරික විද්‍යා පීඨය", "name_ta": "பிரயோக விஞ்ஞான பீடம்" },
+      { "id": "engineering", "name_en": "Faculty of Engineering", "name_si": "ඉංජිනේරු පීඨය", "name_ta": "பொறியியல் பீடம்" },
+      { "id": "humanities", "name_en": "Faculty of Humanities & Social Sciences", "name_si": "මානව ශාස්ත්‍ර හා සමාජයීය විද්‍යා පීඨය", "name_ta": "மானிடவியல் மற்றும் சமூக விஞ்ஞான பீடம்" },
+      { "id": "management", "name_en": "Faculty of Management Studies & Commerce", "name_si": "කළමනාකරණ අධ්‍යයන හා වාණිජ විද්‍යා පීඨය", "name_ta": "முகாமைத்துவக் கற்கைகள் மற்றும் வர்த்தக பீடம்" },
+      { "id": "medical-sciences", "name_en": "Faculty of Medical Sciences", "name_si": "වෛද්‍ය විද්‍යා පීඨය", "name_ta": "மருத்துவ விஞ்ஞான பீடம்" },
+      { "id": "technology", "name_en": "Faculty of Technology", "name_si": "තාක්ෂණ පීඨය", "name_ta": "தொழில்நுட்ப பீடம்" },
+      { "id": "computing", "name_en": "Faculty of Computing", "name_si": "පරිගණක පීඨය", "name_ta": "கணினி பீடம்" },
+      { "id": "urban-agriculture", "name_en": "Faculty of Urban Agriculture", "name_si": "නාගරික කෘෂිකර්ම පීඨය", "name_ta": "நகர்ப்புற விவசாய பீடம்" }
+    ]
+  },
+  {
+    "id": "uor",
+    "code": "UOR",
+    "name_en": "University of Ruhuna",
+    "name_si": "රුහුණ විශ්වවිද්‍යාලය",
+    "name_ta": "ருகுணப் பல்கலைக்கழகம்",
+    "abbreviation": "UoR",
+    "type": "state",
+    "ugc_recognized": true,
+    "established_year": 1978,
+    "website": "https://www.ruh.ac.lk",
+    "contact": {
+      "phone": "+94 41 222 2681",
+      "email": "postmaster@ruh.ac.lk"
+    },
+    "location": {
+      "district": "Matara",
+      "city": "Matara",
+      "postal_code": "81000",
+      "address": "Wellamadama, Matara 81000",
+      "latitude": 5.9381,
+      "longitude": 80.5762
+    },
+    "faculties": [
+      { "id": "agriculture", "name_en": "Faculty of Agriculture", "name_si": "කෘෂිකර්ම පීඨය", "name_ta": "விவசாய பீடம்" },
+      { "id": "allied-health", "name_en": "Faculty of Allied Health Sciences", "name_si": "සම සෞඛ්‍ය විද්‍යා පීඨය", "name_ta": "இணைந்த சுகாதார விஞ்ஞான பீடம்" },
+      { "id": "engineering", "name_en": "Faculty of Engineering", "name_si": "ඉංජිනේරු පීඨය", "name_ta": "பொறியியல் பீடம்" },
+      { "id": "fisheries", "name_en": "Faculty of Fisheries & Marine Sciences", "name_si": "ධීවර හා සමුද්‍රීය විද්‍යා පීඨය", "name_ta": "மீன்பிடி மற்றும் கடல்சார் விஞ்ஞான பீடம்" },
+      { "id": "humanities", "name_en": "Faculty of Humanities & Social Sciences", "name_si": "මානව ශාස්ත්‍ර හා සමාජයීය විද්‍යා පීඨය", "name_ta": "மானிடவியல் மற்றும் சமூக விஞ்ஞான பீடம்" },
+      { "id": "management", "name_en": "Faculty of Management & Finance", "name_si": "කළමනාකරණ හා මූල්‍ය පීඨය", "name_ta": "முகாமைத்துவ மற்றும் நிதி பீடம்" },
+      { "id": "medicine", "name_en": "Faculty of Medicine", "name_si": "වෛද්‍ය පීඨය", "name_ta": "மருத்துவப் பீடம்" },
+      { "id": "science", "name_en": "Faculty of Science", "name_si": "විද්‍යා පීඨය", "name_ta": "விஞ்ஞானப் பீடம்" },
+      { "id": "technology", "name_en": "Faculty of Technology", "name_si": "තාක්ෂණ පීඨය", "name_ta": "தொழில்நுட்ப பீடம்" }
+    ]
+  },
+  {
+    "id": "uoj",
+    "code": "UOJ",
+    "name_en": "University of Jaffna",
+    "name_si": "යාපනය විශ්වවිද්‍යාලය",
+    "name_ta": "யாழ்ப்பாணப் பல்கலைக்கழகம்",
+    "abbreviation": "UoJ",
+    "type": "state",
+    "ugc_recognized": true,
+    "established_year": 1974,
+    "website": "https://www.jfn.ac.lk",
+    "contact": {
+      "phone": "+94 21 221 8100",
+      "email": "info@univ.jfn.ac.lk"
+    },
+    "location": {
+      "district": "Jaffna",
+      "city": "Jaffna",
+      "postal_code": "40000",
+      "address": "Thirunelvely, Jaffna 40000",
+      "latitude": 9.6849,
+      "longitude": 80.0219
+    },
+    "faculties": [
+      { "id": "agriculture", "name_en": "Faculty of Agriculture", "name_si": "කෘෂිකර්ම පීඨය", "name_ta": "விவசாய பீடம்" },
+      { "id": "arts", "name_en": "Faculty of Arts", "name_si": "කලා පීඨය", "name_ta": "கலை பீடம்" },
+      { "id": "engineering", "name_en": "Faculty of Engineering", "name_si": "ඉංජිනේරු පීඨය", "name_ta": "பொறியியல் பீடம்" },
+      { "id": "management", "name_en": "Faculty of Management Studies & Commerce", "name_si": "කළමනාකරණ හා වාණිජ පීඨය", "name_ta": "முகாமைத்துவ மற்றும் வர்த்தக பீடம்" },
+      { "id": "medicine", "name_en": "Faculty of Medicine", "name_si": "වෛද්‍ය පීඨය", "name_ta": "மருத்துவப் பீடம்" },
+      { "id": "science", "name_en": "Faculty of Science", "name_si": "විද්‍යා පීඨය", "name_ta": "விஞ்ஞானப் பீடம்" },
+      { "id": "technology", "name_en": "Faculty of Technology", "name_si": "තාක්ෂණ පීඨය", "name_ta": "தொழில்நுட்ப பீடம்" },
+      { "id": "hindu-studies", "name_en": "Faculty of Hindu Studies", "name_si": "හින්දු අධ්‍යයන පීඨය", "name_ta": "இந்து கற்கைகள் பீடம்" }
+    ]
+  },
+  {
+    "id": "rusl",
+    "code": "RUSL",
+    "name_en": "Rajarata University of Sri Lanka",
+    "name_si": "රජරට විශ්වවිද්‍යාලය",
+    "name_ta": "ரஜரட்ட பல்கலைக்கழகம்",
+    "abbreviation": "RUSL",
+    "type": "state",
+    "ugc_recognized": true,
+    "established_year": 1995,
+    "website": "https://www.rjt.ac.lk",
+    "contact": {
+      "phone": "+94 25 226 6645",
+      "email": "info@rjt.ac.lk"
+    },
+    "location": {
+      "district": "Anuradhapura",
+      "city": "Mihintale",
+      "postal_code": "50300",
+      "address": "Mihintale 50300",
+      "latitude": 8.3582,
+      "longitude": 80.5050
+    },
+    "faculties": [
+      { "id": "applied-sciences", "name_en": "Faculty of Applied Sciences", "name_si": "ව්‍යවහාරික විද්‍යා පීඨය", "name_ta": "பிரயோக விஞ்ஞான பீடம்" },
+      { "id": "management", "name_en": "Faculty of Management Studies", "name_si": "කළමනාකරණ අධ්‍යයන පීඨය", "name_ta": "முகாமைத்துவக் கற்கைகள் பீடம்" },
+      { "id": "medicine", "name_en": "Faculty of Medicine & Allied Sciences", "name_si": "වෛද්‍ය හා සම සෞඛ්‍ය විද්‍යා පීඨය", "name_ta": "மருத்துவ மற்றும் இணைந்த சுகாதார பீடம்" },
+      { "id": "social-sciences", "name_en": "Faculty of Social Sciences & Humanities", "name_si": "සමාජයීය විද්‍යා හා මානව ශාස්ත්‍ර පීඨය", "name_ta": "சமூக விஞ்ஞான மற்றும் மானிடவியல் பீடம்" },
+      { "id": "agriculture", "name_en": "Faculty of Agriculture", "name_si": "කෘෂිකර්ම පීඨය", "name_ta": "விவசாய பீடம்" },
+      { "id": "technology", "name_en": "Faculty of Technology", "name_si": "තාක්ෂණ පීඨය", "name_ta": "தொழில்நுட்ப பீடம்" }
+    ]
+  },
+  {
+    "id": "susl",
+    "code": "SUSL",
+    "name_en": "Sabaragamuwa University of Sri Lanka",
+    "name_si": "සබරගමුව විශ්වවිද්‍යාලය",
+    "name_ta": "சபரகமுவ பல்கலைக்கழகம்",
+    "abbreviation": "SUSL",
+    "type": "state",
+    "ugc_recognized": true,
+    "established_year": 1995,
+    "website": "https://www.sab.ac.lk",
+    "contact": {
+      "phone": "+94 45 228 0014",
+      "email": "info@sab.ac.lk"
+    },
+    "location": {
+      "district": "Ratnapura",
+      "city": "Belihuloya",
+      "postal_code": "70140",
+      "address": "P.O. Box 02, Belihuloya 70140",
+      "latitude": 6.7139,
+      "longitude": 80.7872
+    },
+    "faculties": [
+      { "id": "agricultural-sciences", "name_en": "Faculty of Agricultural Sciences", "name_si": "කෘෂිකර්ම විද්‍යා පීඨය", "name_ta": "விவசாய விஞ்ஞான பீடம்" },
+      { "id": "applied-sciences", "name_en": "Faculty of Applied Sciences", "name_si": "ව්‍යවහාරික විද්‍යා පීඨය", "name_ta": "பிரயோக விஞ்ஞான பீடம்" },
+      { "id": "geomatics", "name_en": "Faculty of Geomatics", "name_si": "භූමාන විද්‍යා පීඨය", "name_ta": "புவிசார் தகவல் பீடம்" },
+      { "id": "management", "name_en": "Faculty of Management Studies", "name_si": "කළමනාකරණ අධ්‍යයන පීඨය", "name_ta": "முகாமைத்துவக் கற்கைகள் பீடம்" },
+      { "id": "medicine", "name_en": "Faculty of Medicine", "name_si": "වෛද්‍ය පීඨය", "name_ta": "மருத்துவப் பீடம்" },
+      { "id": "social-sciences", "name_en": "Faculty of Social Sciences & Languages", "name_si": "සමාජයීය විද්‍යා හා භාෂා පීඨය", "name_ta": "சமூக விஞ்ஞான மற்றும் மொழிகள் பீடம்" },
+      { "id": "technology", "name_en": "Faculty of Technology", "name_si": "තාක්ෂණ පීඨය", "name_ta": "தொழில்நுட்ப பீடம்" },
+      { "id": "computing", "name_en": "Faculty of Computing", "name_si": "පරිගණක පීඨය", "name_ta": "கணினி பீடம்" }
+    ]
+  },
+  {
+    "id": "wusl",
+    "code": "WUSL",
+    "name_en": "Wayamba University of Sri Lanka",
+    "name_si": "වයඹ විශ්වවිද්‍යාලය",
+    "name_ta": "வயம்ப பல்கலைக்கழகம்",
+    "abbreviation": "WUSL",
+    "type": "state",
+    "ugc_recognized": true,
+    "established_year": 1999,
+    "website": "https://www.wyb.ac.lk",
+    "contact": {
+      "phone": "+94 37 228 1414",
+      "email": "info@wyb.ac.lk"
+    },
+    "location": {
+      "district": "Kurunegala",
+      "city": "Kuliyapitiya",
+      "postal_code": "60200",
+      "address": "Kanadulla, Kuliyapitiya 60200",
+      "latitude": 7.4722,
+      "longitude": 80.0439
+    },
+    "faculties": [
+      { "id": "agriculture", "name_en": "Faculty of Agriculture & Plantation Management", "name_si": "කෘෂිකර්ම හා වැවිලි කළමනාකරණ පීඨය", "name_ta": "விவசாய மற்றும் பெருந்தோட்ட முகாமைத்துவ பீடம்" },
+      { "id": "applied-sciences", "name_en": "Faculty of Applied Sciences", "name_si": "ව්‍යවහාරික විද්‍යා පීඨය", "name_ta": "பிரயோக விஞ்ஞான பீடம்" },
+      { "id": "business", "name_en": "Faculty of Business Studies & Finance", "name_si": "ව්‍යාපාර අධ්‍යයන හා මූල්‍ය පීඨය", "name_ta": "வணிகக் கற்கைகள் மற்றும் நிதி பீடம்" },
+      { "id": "livestock", "name_en": "Faculty of Livestock, Fisheries & Nutrition", "name_si": "සත්ත්ව, ධීවර හා පෝෂණ පීඨය", "name_ta": "கால்நடை, மீன்பிடி மற்றும் ஊட்டச்சத்து பீடம்" },
+      { "id": "medicine", "name_en": "Faculty of Medicine", "name_si": "වෛද්‍ය පීඨය", "name_ta": "மருத்துவப் பீடம்" },
+      { "id": "technology", "name_en": "Faculty of Technology", "name_si": "තාක්ෂණ පීඨය", "name_ta": "தொழில்நுட்ப பீடம்" }
+    ]
+  },
+  {
+    "id": "uwu",
+    "code": "UWU",
+    "name_en": "Uva Wellassa University",
+    "name_si": "ඌව වෙල්ලස්ස විශ්වවිද්‍යාලය",
+    "name_ta": "ஊவா வெல்லஸ்ஸ பல்கலைக்கழகம்",
+    "abbreviation": "UWU",
+    "type": "state",
+    "ugc_recognized": true,
+    "established_year": 2005,
+    "website": "https://www.uwu.ac.lk",
+    "contact": {
+      "phone": "+94 55 222 6370",
+      "email": "info@uwu.ac.lk"
+    },
+    "location": {
+      "district": "Badulla",
+      "city": "Badulla",
+      "postal_code": "90000",
+      "address": "Passara Road, Badulla 90000",
+      "latitude": 6.9822,
+      "longitude": 81.0772
+    },
+    "faculties": [
+      { "id": "animal-science", "name_en": "Faculty of Animal Science & Export Agriculture", "name_si": "සත්ත්ව විද්‍යා හා අපනයන කෘෂිකර්ම පීඨය", "name_ta": "விலங்கு அறிவியல் மற்றும் ஏற்றுமதி விவசாய பீடம்" },
+      { "id": "applied-sciences", "name_en": "Faculty of Applied Sciences", "name_si": "ව්‍යවහාරික විද්‍යා පීඨය", "name_ta": "பிரயோக விஞ்ஞான பீடம்" },
+      { "id": "management", "name_en": "Faculty of Management", "name_si": "කළමනාකරණ පීඨය", "name_ta": "முகாமைத்துவ பீடம்" },
+      { "id": "technological-studies", "name_en": "Faculty of Technological Studies", "name_si": "තාක්ෂණික අධ්‍යයන පීඨය", "name_ta": "தொழில்நுட்ப கற்கைகள் பீடம்" },
+      { "id": "medicine", "name_en": "Faculty of Medicine", "name_si": "වෛද්‍ය පීඨය", "name_ta": "மருத்துவப் பீடம்" }
+    ]
+  },
+  {
+    "id": "ousl",
+    "code": "OUSL",
+    "name_en": "Open University of Sri Lanka",
+    "name_si": "ශ්‍රී ලංකා විවෘත විශ්වවිද්‍යාලය",
+    "name_ta": "இலங்கை திறந்த பல்கலைக்கழகம்",
+    "abbreviation": "OUSL",
+    "type": "state",
+    "ugc_recognized": true,
+    "established_year": 1980,
+    "website": "https://ou.ac.lk",
+    "contact": {
+      "phone": "+94 11 288 1000",
+      "email": "pio@ou.ac.lk"
+    },
+    "location": {
+      "district": "Colombo",
+      "city": "Nawala",
+      "postal_code": "10250",
+      "address": "P.O. Box 21, Nawala, Nugegoda 10250",
+      "latitude": 6.8833,
+      "longitude": 79.8867
+    },
+    "faculties": [
+      { "id": "education", "name_en": "Faculty of Education", "name_si": "අධ්‍යාපන පීඨය", "name_ta": "கல்விப் பீடம்" },
+      { "id": "engineering", "name_en": "Faculty of Engineering Technology", "name_si": "ඉංජිනේරු තාක්ෂණ පීඨය", "name_ta": "பொறியியல் தொழில்நுட்ப பீடம்" },
+      { "id": "health-sciences", "name_en": "Faculty of Health Sciences", "name_si": "සෞඛ්‍ය විද්‍යා පීඨය", "name_ta": "சுகாதார விஞ்ஞான பீடம்" },
+      { "id": "humanities", "name_en": "Faculty of Humanities & Social Sciences", "name_si": "මානව ශාස්ත්‍ර හා සමාජයීය විද්‍යා පීඨය", "name_ta": "மானிடவியல் மற்றும் சமூக விஞ்ஞான பீடம்" },
+      { "id": "management", "name_en": "Faculty of Management Studies", "name_si": "කළමනාකරණ අධ්‍යයන පීඨය", "name_ta": "முகாமைத்துவக் கற்கைகள் பீடம்" },
+      { "id": "natural-sciences", "name_en": "Faculty of Natural Sciences", "name_si": "ස්වභාවික විද්‍යා පීඨය", "name_ta": "இயற்கை விஞ்ஞான பீடம்" }
+    ]
+  },
+  {
+    "id": "eusl",
+    "code": "EUSL",
+    "name_en": "Eastern University, Sri Lanka",
+    "name_si": "නැගෙනහිර විශ්වවිද්‍යාලය",
+    "name_ta": "கிழக்குப் பல்கலைக்கழகம், இலங்கை",
+    "abbreviation": "EUSL",
+    "type": "state",
+    "ugc_recognized": true,
+    "established_year": 1981,
+    "website": "https://www.esn.ac.lk",
+    "contact": {
+      "phone": "+94 65 224 0490",
+      "email": "info@esn.ac.lk"
+    },
+    "location": {
+      "district": "Batticaloa",
+      "city": "Chenkalady",
+      "postal_code": "30350",
+      "address": "Vantharumoolai, Chenkalady 30350",
+      "latitude": 7.7944,
+      "longitude": 81.5772
+    },
+    "faculties": [
+      { "id": "agriculture", "name_en": "Faculty of Agriculture", "name_si": "කෘෂිකර්ම පීඨය", "name_ta": "விவசாய பீடம்" },
+      { "id": "arts", "name_en": "Faculty of Arts & Culture", "name_si": "කලා හා සංස්කෘතික පීඨය", "name_ta": "கலை மற்றும் கலாச்சார பீடம்" },
+      { "id": "commerce", "name_en": "Faculty of Commerce & Management", "name_si": "වාණිජ හා කළමනාකරණ පීඨය", "name_ta": "வர்த்தக மற்றும் முகாமைத்துவ பீடம்" },
+      { "id": "science", "name_en": "Faculty of Science", "name_si": "විද්‍යා පීඨය", "name_ta": "விஞ்ஞானப் பீடம்" },
+      { "id": "healthcare", "name_en": "Faculty of Health-Care Sciences", "name_si": "සෞඛ්‍ය ආරක්ෂණ විද්‍යා පීඨය", "name_ta": "சுகாதாரப் பராமரிப்பு விஞ்ஞான பீடம்" },
+      { "id": "technology", "name_en": "Faculty of Technology", "name_si": "තාක්ෂණ පීඨය", "name_ta": "தொழில்நுட்ப பீடம்" }
+    ]
+  },
+  {
+    "id": "seusl",
+    "code": "SEUSL",
+    "name_en": "South Eastern University of Sri Lanka",
+    "name_si": "ශ්‍රී ලංකා අග්නිදිග විශ්වවිද්‍යාලය",
+    "name_ta": "தென்கிழக்குப் பல்கலைக்கழகம், இலங்கை",
+    "abbreviation": "SEUSL",
+    "type": "state",
+    "ugc_recognized": true,
+    "established_year": 1995,
+    "website": "https://www.seu.ac.lk",
+    "contact": {
+      "phone": "+94 67 225 5062",
+      "email": "info@seu.ac.lk"
+    },
+    "location": {
+      "district": "Ampara",
+      "city": "Oluvil",
+      "postal_code": "32360",
+      "address": "University Park, Oluvil 32360",
+      "latitude": 7.2981,
+      "longitude": 81.8500
+    },
+    "faculties": [
+      { "id": "applied-sciences", "name_en": "Faculty of Applied Sciences", "name_si": "ව්‍යවහාරික විද්‍යා පීඨය", "name_ta": "பிரயோக விஞ்ஞான பீடம்" },
+      { "id": "arts", "name_en": "Faculty of Arts & Culture", "name_si": "කලා හා සංස්කෘතික පීඨය", "name_ta": "கலை மற்றும் கலாச்சார பீடம்" },
+      { "id": "management", "name_en": "Faculty of Management & Commerce", "name_si": "කළමනාකරණ හා වාණිජ පීඨය", "name_ta": "முகாமைத்துவ மற்றும் வர்த்தக பீடம்" },
+      { "id": "islamic-studies", "name_en": "Faculty of Islamic Studies & Arabic Language", "name_si": "ඉස්ලාමීය අධ්‍යයන හා අරාබි භාෂා පීඨය", "name_ta": "இஸ்லாமிய கற்கைகள் மற்றும் அரபு மொழி பீடம்" },
+      { "id": "engineering", "name_en": "Faculty of Engineering", "name_si": "ඉංජිනේරු පීඨය", "name_ta": "பொறியியல் பீடம்" },
+      { "id": "technology", "name_en": "Faculty of Technology", "name_si": "තාක්ෂණ පීඨය", "name_ta": "தொழில்நுட்ப பீடம்" }
+    ]
+  },
+  {
+    "id": "uvpa",
+    "code": "UVPA",
+    "name_en": "University of the Visual & Performing Arts",
+    "name_si": "දෘශ්‍ය හා රංගන කලා විශ්වවිද්‍යාලය",
+    "name_ta": "காட்சிக் கலைகள் மற்றும் நிகழ்த்துகைக் கலைகள் பல்கலைக்கழகம்",
+    "abbreviation": "UVPA",
+    "type": "state",
+    "ugc_recognized": true,
+    "established_year": 2005,
+    "website": "https://vpa.ac.lk",
+    "contact": {
+      "phone": "+94 11 203 3710",
+      "email": "info@vpa.ac.lk"
+    },
+    "location": {
+      "district": "Colombo",
+      "city": "Colombo 7",
+      "postal_code": "00700",
+      "address": "21 Albert Crescent, Colombo 00700",
+      "latitude": 6.9100,
+      "longitude": 79.8633
+    },
+    "faculties": [
+      { "id": "dance", "name_en": "Faculty of Dance & Drama", "name_si": "නර්තන හා නාට්‍ය කලා පීඨය", "name_ta": "நடனம் மற்றும் நாடக பீடம்" },
+      { "id": "music", "name_en": "Faculty of Music", "name_si": "සංගීත පීඨය", "name_ta": "இசைப் பீடம்" },
+      { "id": "visual-arts", "name_en": "Faculty of Visual Arts", "name_si": "දෘශ්‍ය කලා පීඨය", "name_ta": "காட்சிக் கலை பீடம்" }
+    ]
+  },
+  {
+    "id": "gwuim",
+    "code": "GWUIM",
+    "name_en": "Gampaha Wickramarachchi University of Indigenous Medicine",
+    "name_si": "ගම්පහ වික්‍රමාරච්චි දේශීය වෛද්‍ය විශ්වවිද්‍යාලය",
+    "name_ta": "கம்பஹா விக்கிரமாரச்சி சுதேச மருத்துவப் பல்கலைக்கழகம்",
+    "abbreviation": "GWUIM",
+    "type": "state",
+    "ugc_recognized": true,
+    "established_year": 2021,
+    "website": "https://gwu.ac.lk",
+    "contact": {
+      "phone": "+94 33 222 2748",
+      "email": "info@gwu.ac.lk"
+    },
+    "location": {
+      "district": "Gampaha",
+      "city": "Yakkala",
+      "postal_code": "11870",
+      "address": "Kandy Road, Yakkala 11870",
+      "latitude": 7.0850,
+      "longitude": 80.0333
+    },
+    "faculties": [
+      { "id": "indigenous-medicine", "name_en": "Faculty of Indigenous Medicine", "name_si": "දේශීය වෛද්‍ය පීඨය", "name_ta": "சுதேச மருத்துவ பீடம்" },
+      { "id": "applied-science", "name_en": "Faculty of Indigenous Health Sciences & Technology", "name_si": "දේශීය සෞඛ්‍ය විද්‍යා හා තාක්ෂණ පීඨය", "name_ta": "சுதேச சுகாதார அறிவியல் மற்றும் தொழில்நுட்ப பீடம்" },
+      { "id": "indigenous-social-sciences", "name_en": "Faculty of Indigenous Social Sciences & Management Studies", "name_si": "දේශීය සමාජ විද්‍යා හා කළමනාකරණ අධ්‍යයන පීඨය", "name_ta": "சுதேச சமூக அறிவியல் மற்றும் முகாமைத்துவக் கற்கைகள் பீடம்" }
+    ]
+  },
+  {
+    "id": "uov",
+    "code": "UOV",
+    "name_en": "University of Vavuniya",
+    "name_si": "වවුනියාව විශ්වවිද්‍යාලය",
+    "name_ta": "வவுனியா பல்கலைக்கழகம்",
+    "abbreviation": "UoV",
+    "type": "state",
+    "ugc_recognized": true,
+    "established_year": 2021,
+    "website": "https://vau.ac.lk",
+    "contact": {
+      "phone": "+94 24 222 2265",
+      "email": "info@vau.ac.lk"
+    },
+    "location": {
+      "district": "Vavuniya",
+      "city": "Vavuniya",
+      "postal_code": "43000",
+      "address": "Pampaimadu, Vavuniya 43000",
+      "latitude": 8.7564,
+      "longitude": 80.4992
+    },
+    "faculties": [
+      { "id": "applied-science", "name_en": "Faculty of Applied Science", "name_si": "ව්‍යවහාරික විද්‍යා පීඨය", "name_ta": "பிரயோக விஞ்ஞான பீடம்" },
+      { "id": "business-studies", "name_en": "Faculty of Business Studies", "name_si": "ව්‍යාපාර අධ්‍යයන පීඨය", "name_ta": "வணிகக் கற்கைகள் பீடம்" },
+      { "id": "technological-studies", "name_en": "Faculty of Technological Studies", "name_si": "තාක්ෂණික අධ්‍යයන පීඨය", "name_ta": "தொழில்நுட்ப கற்கைகள் பீடம்" }
+    ]
+  },
+  {
+    "id": "sliit",
+    "code": "SLIIT",
+    "name_en": "Sri Lanka Institute of Information Technology",
+    "name_si": "ශ්‍රී ලංකා තොරතුරු තාක්ෂණ ආයතනය",
+    "name_ta": "இலங்கை தகவல் தொழில்நுட்ப நிறுவனம்",
+    "abbreviation": "SLIIT",
+    "type": "private",
+    "ugc_recognized": true,
+    "established_year": 1999,
+    "website": "https://www.sliit.lk",
+    "contact": {
+      "phone": "+94 11 754 4801",
+      "email": "info@sliit.lk"
+    },
+    "location": {
+      "district": "Colombo",
+      "city": "Malabe",
+      "postal_code": "10115",
+      "address": "New Kandy Road, Malabe 10115",
+      "latitude": 6.9147,
+      "longitude": 79.9729
+    },
+    "faculties": [
+      { "id": "computing", "name_en": "Faculty of Computing", "name_si": "පරිගණක පීඨය", "name_ta": "கணினி பீடம்" },
+      { "id": "engineering", "name_en": "Faculty of Engineering", "name_si": "ඉංජිනේරු පීඨය", "name_ta": "பொறியியல் பீடம்" },
+      { "id": "business", "name_en": "Faculty of Business", "name_si": "ව්‍යාපාර පීඨය", "name_ta": "வணிக பீடம்" },
+      { "id": "humanities-sciences", "name_en": "Faculty of Humanities & Sciences", "name_si": "මානව ශාස්ත්‍ර හා විද්‍යා පීඨය", "name_ta": "மானிடவியல் மற்றும் அறிவியல் பீடம்" }
+    ]
+  },
+  {
+    "id": "nsbm",
+    "code": "NSBM",
+    "name_en": "National School of Business Management",
+    "name_si": "ජාතික ව්‍යාපාර කළමනාකාරීත්ව පාසල (NSBM)",
+    "name_ta": "தேசிய வணிக முகாமைத்துவப் பாடசாலை",
+    "abbreviation": "NSBM",
+    "type": "semi-government",
+    "ugc_recognized": true,
+    "established_year": 2011,
+    "website": "https://www.nsbm.ac.lk",
+    "contact": {
+      "phone": "+94 11 544 5000",
+      "email": "inquiries@nsbm.ac.lk"
+    },
+    "location": {
+      "district": "Colombo",
+      "city": "Homagama",
+      "postal_code": "10200",
+      "address": "Mahenwatta, Pitipana, Homagama 10200",
+      "latitude": 6.8214,
+      "longitude": 80.0416
+    },
+    "faculties": [
+      { "id": "business", "name_en": "Faculty of Business", "name_si": "ව්‍යාපාර පීඨය", "name_ta": "வணிக பீடம்" },
+      { "id": "computing", "name_en": "Faculty of Computing", "name_si": "පරිගණක පීඨය", "name_ta": "கணினி பீடம்" },
+      { "id": "engineering", "name_en": "Faculty of Engineering", "name_si": "ඉංජිනේරු පීඨය", "name_ta": "பொறியியல் பீடம்" },
+      { "id": "science", "name_en": "Faculty of Science", "name_si": "විද්‍යා පීඨය", "name_ta": "விஞ்ஞானப் பீடம்" }
+    ]
+  },
+  {
+    "id": "kdu",
+    "code": "KDU",
+    "name_en": "General Sir John Kotelawala Defence University",
+    "name_si": "ජෙනරාල් ශ්‍රීමත් ජෝන් කොතලාවල ආරක්ෂක විශ්වවිද්‍යාලය",
+    "name_ta": "ஜெனரல் சேர் ஜோன் கொத்தலாவல பாதுகாப்பு பல்கலைக்கழகம்",
+    "abbreviation": "KDU",
+    "type": "defense",
+    "ugc_recognized": true,
+    "established_year": 1981,
+    "website": "https://kdu.ac.lk",
+    "contact": {
+      "phone": "+94 11 263 2028",
+      "email": "kdudefence@kdu.ac.lk"
+    },
+    "location": {
+      "district": "Colombo",
+      "city": "Ratmalana",
+      "postal_code": "10390",
+      "address": "Kandawala Road, Ratmalana 10390",
+      "latitude": 6.8154,
+      "longitude": 79.8824
+    },
+    "faculties": [
+      { "id": "defense-studies", "name_en": "Faculty of Defence & Strategic Studies", "name_si": "ආරක්ෂක හා උපායමාර්ගික අධ්‍යයන පීඨය", "name_ta": "பாதுகாப்பு மற்றும் மூலோபாய ஆய்வுகள் பீடம்" },
+      { "id": "engineering", "name_en": "Faculty of Engineering", "name_si": "ඉංජිනේරු පීඨය", "name_ta": "பொறியியல் பீடம்" },
+      { "id": "medicine", "name_en": "Faculty of Medicine", "name_si": "වෛද්‍ය පීඨය", "name_ta": "மருத்துவப் பீடம்" },
+      { "id": "law", "name_en": "Faculty of Law", "name_si": "නීති පීඨය", "name_ta": "சட்டப் பீடம்" },
+      { "id": "management", "name_en": "Faculty of Management, Social Sciences & Humanities", "name_si": "කළමනාකරණ හා සමාජයීය විද්‍යා පීඨය", "name_ta": "முகாமைத்துவ மற்றும் சமூக அறிவியல் பீடம்" },
+      { "id": "allied-health", "name_en": "Faculty of Allied Health Sciences", "name_si": "සම සෞඛ්‍ය විද්‍යා පීඨය", "name_ta": "இணைந்த சுகாதார அறிவியல் பீடம்" },
+      { "id": "computing", "name_en": "Faculty of Computing", "name_si": "පරිගණක පීඨය", "name_ta": "கணினி பீடம்" },
+      { "id": "technology", "name_en": "Faculty of Technology", "name_si": "තාක්ෂණ පීඨය", "name_ta": "தொழில்நுட்ப பீடம்" }
+    ]
+  },
+  {
+    "id": "sltc",
+    "code": "SLTC",
+    "name_en": "SLTC Research University",
+    "name_si": "ශ්‍රී ලංකා තාක්ෂණික විශ්වවිද්‍යාලය (SLTC)",
+    "name_ta": "இலங்கை தொழில்நுட்பப் பல்கலைக்கழகம்",
+    "abbreviation": "SLTC",
+    "type": "private",
+    "ugc_recognized": true,
+    "established_year": 2015,
+    "website": "https://sltc.ac.lk",
+    "contact": {
+      "phone": "+94 11 210 0500",
+      "email": "info@sltc.ac.lk"
+    },
+    "location": {
+      "district": "Colombo",
+      "city": "Padukka",
+      "postal_code": "10500",
+      "address": "Ingiriya Road, Meepe, Padukka 10500",
+      "latitude": 6.8483,
+      "longitude": 80.0894
+    },
+    "faculties": [
+      { "id": "engineering", "name_en": "School of Engineering", "name_si": "ඉංජිනේරු පීඨය", "name_ta": "பொறியியல் பீடம்" },
+      { "id": "it", "name_en": "School of IT & Computing", "name_si": "තොරතුරු තාක්ෂණ හා පරිගණක පීඨය", "name_ta": "தகவல் தொழில்நுட்ப மற்றும் கணினி பீடம்" },
+      { "id": "business", "name_en": "Business School", "name_si": "ව්‍යාපාර පාසල", "name_ta": "வணிகப் பாடசாலை" }
+    ]
+  }
+]
