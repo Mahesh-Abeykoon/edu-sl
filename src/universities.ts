@@ -50,6 +50,8 @@ for (const u of UNIVERSITIES) {
   CODE_OR_ID_MAP.set(u.id.toLowerCase(), u);
   CODE_OR_ID_MAP.set(u.abbreviation.toUpperCase(), u);
   CODE_OR_ID_MAP.set(u.name_en.toLowerCase(), u);
+  if (u.name_si) CODE_OR_ID_MAP.set(u.name_si.trim(), u);
+  if (u.name_ta) CODE_OR_ID_MAP.set(u.name_ta.trim(), u);
 
   const distKey = u.location.district.toLowerCase();
   if (!DISTRICT_MAP.has(distKey)) DISTRICT_MAP.set(distKey, []);
@@ -210,6 +212,15 @@ export function searchUniversities(query: string, options?: SearchOptions): Univ
       score = 45;
     } else if (u.location.city.toLowerCase().includes(q) || u.location.district.toLowerCase().includes(q)) {
       score = 30;
+    } else if (
+      u.faculties.some(
+        (f) =>
+          f.name_en.toLowerCase().includes(q) ||
+          (raw && f.name_si.includes(raw)) ||
+          (raw && f.name_ta.includes(raw))
+      )
+    ) {
+      score = 25;
     }
 
     if (score > 0) {
@@ -241,6 +252,8 @@ export function toSelectOptions<T>(
   labelKey: keyof T | ((item: T) => string),
   valueKey: keyof T | ((item: T) => string)
 ): SelectOption[] {
+  if (!items || !Array.isArray(items)) return [];
+
   return items.map((item) => {
     const label = typeof labelKey === 'function' ? labelKey(item) : String(item[labelKey] ?? '');
     const value = typeof valueKey === 'function' ? valueKey(item) : String(item[valueKey] ?? '');
@@ -267,10 +280,14 @@ export function getInstitutionTypes(): readonly InstitutionType[] {
   return INSTITUTION_TYPES;
 }
 
+const DISTRICTS: readonly string[] = Object.freeze(
+  Array.from(new Set(UNIVERSITIES.map((u) => u.location.district))).sort()
+);
+
 /**
  * Returns a sorted, unique list of all Sri Lankan districts where institutions are located.
  */
-export function getDistricts(): string[] {
-  return Array.from(new Set(UNIVERSITIES.map((u) => u.location.district))).sort();
+export function getDistricts(): readonly string[] {
+  return DISTRICTS;
 }
 

@@ -116,6 +116,41 @@ describe('edu-sl: Universities & Higher Education Dataset', () => {
     expect(facultyOptions.length).toBeGreaterThanOrEqual(5);
   });
 
+  it('should find university by Sinhala or Tamil official name directly', () => {
+    const uocBySi = getUniversity('කොළඹ විශ්වවිද්‍යාලය');
+    expect(uocBySi).toBeDefined();
+    expect(uocBySi?.code).toBe('UOC');
+
+    const uomByTa = getUniversity('மொறட்டுவ பல்கலைக்கழகம்');
+    expect(uomByTa).toBeDefined();
+    expect(uomByTa?.code).toBe('UOM');
+
+    // Invalid or empty codes
+    expect(getUniversity('')).toBeUndefined();
+    expect(getUniversity('NON_EXISTENT_UNI_XYZ')).toBeUndefined();
+  });
+
+  it('should support search by faculty and handle edge cases', () => {
+    const computingUnis = searchUniversities('Computing');
+    expect(computingUnis.length).toBeGreaterThan(0);
+    expect(computingUnis.some((u) => u.code === 'UOC')).toBe(true);
+
+    // Empty search query
+    expect(searchUniversities('')).toEqual([]);
+    expect(searchUniversities('   ')).toEqual([]);
+
+    // Non-existent search
+    expect(searchUniversities('XYZ_NON_EXISTENT_QUERY')).toEqual([]);
+  });
+
+  it('should safely handle defensive toSelectOptions edge cases', () => {
+    const safeEmpty = toSelectOptions(undefined as any, 'name', 'code');
+    expect(safeEmpty).toEqual([]);
+
+    const safeNonArray = toSelectOptions(null as any, 'name', 'code');
+    expect(safeNonArray).toEqual([]);
+  });
+
   it('should list all institution types and available districts', () => {
     const types = getInstitutionTypes();
     expect(types).toContain('state');
@@ -127,5 +162,6 @@ describe('edu-sl: Universities & Higher Education Dataset', () => {
     expect(districts).toContain('Colombo');
     expect(districts).toContain('Kandy');
     expect(districts).toContain('Matara');
+    expect(Object.isFrozen(districts)).toBe(true);
   });
 });
