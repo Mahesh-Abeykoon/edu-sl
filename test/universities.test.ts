@@ -164,4 +164,16 @@ describe('edu-sl: Universities & Higher Education Dataset', () => {
     expect(districts).toContain('Matara');
     expect(Object.isFrozen(districts)).toBe(true);
   });
+
+  it('should not contain any leftover console.log statements in source code', async () => {
+    const fs = await import('fs');
+    const path = await import('path');
+    const srcDir = path.resolve(__dirname, '../src');
+    const files = fs.readdirSync(srcDir).filter((f) => f.endsWith('.ts'));
+
+    for (const file of files) {
+      const content = fs.readFileSync(path.join(srcDir, file), 'utf-8');
+      expect(content).not.toMatch(/console\.(log|debug|warn|error)\(/);
+    }
+  });
 });

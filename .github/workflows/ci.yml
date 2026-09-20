@@ -29,6 +29,9 @@ jobs:
       - name: Install dependencies
         run: npm ci
 
+      - name: Strict typecheck & unused code check
+        run: npm run typecheck
+
       - name: Verify build (TypeScript & tsup)
         run: npm run build
 
