@@ -33,9 +33,16 @@ Whether you are adding a missing institution, adding new faculties, updating con
    npm install
    ```
 
-4. **Create a new feature branch**
+4. **Branching Strategy & Sub-Branches**
+   Always branch off the `develop` integration branch using a conventional prefix:
+   - `data/<institution-name>`: adding or updating universities/faculties in `universities.json`
+   - `feat/<feature-name>`: new TypeScript utilities or query helpers
+   - `fix/<issue-name>`: bug fixes or translation corrections
+   - `docs/<topic>`: documentation updates
+
    ```bash
-   git checkout -b add-institution-name
+   git checkout develop
+   git checkout -b data/add-institution-name
    ```
 
 ---
@@ -169,9 +176,9 @@ Before committing your changes, always test locally:
    ```
 2. Push your branch to GitHub:
    ```bash
-   git push origin add-institution-name
+   git push origin data/add-institution-name
    ```
-3. Open a Pull Request on GitHub against the `main` branch.
+3. Open a Pull Request on GitHub against the `develop` branch.
 4. Complete the Pull Request checklist provided in the template.
 5. GitHub Actions CI will automatically run tests against Node 18, 20, and 22. Ensure all checks pass!
 

@@ -247,3 +247,30 @@ export function toSelectOptions<T>(
     return { label, value };
   });
 }
+
+/**
+ * Supported institution classification categories.
+ */
+export const INSTITUTION_TYPES: readonly InstitutionType[] = Object.freeze([
+  'state',
+  'private',
+  'defense',
+  'semi-government',
+  'postgraduate',
+  'vocational'
+]);
+
+/**
+ * Returns all valid institution types.
+ */
+export function getInstitutionTypes(): readonly InstitutionType[] {
+  return INSTITUTION_TYPES;
+}
+
+/**
+ * Returns a sorted, unique list of all Sri Lankan districts where institutions are located.
+ */
+export function getDistricts(): string[] {
+  return Array.from(new Set(UNIVERSITIES.map((u) => u.location.district))).sort();
+}
+

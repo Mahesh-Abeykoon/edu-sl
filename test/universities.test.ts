@@ -7,7 +7,9 @@ import {
   getUniversitiesByType,
   getFaculties,
   searchUniversities,
-  toSelectOptions
+  toSelectOptions,
+  getDistricts,
+  getInstitutionTypes
 } from '../src/index';
 
 describe('edu-sl: Universities & Higher Education Dataset', () => {
@@ -112,5 +114,18 @@ describe('edu-sl: Universities & Higher Education Dataset', () => {
     const faculties = getFaculties('UOM');
     const facultyOptions = toSelectOptions(faculties, 'name', 'id');
     expect(facultyOptions.length).toBeGreaterThanOrEqual(5);
+  });
+
+  it('should list all institution types and available districts', () => {
+    const types = getInstitutionTypes();
+    expect(types).toContain('state');
+    expect(types).toContain('private');
+    expect(types).toContain('defense');
+
+    const districts = getDistricts();
+    expect(districts.length).toBeGreaterThan(5);
+    expect(districts).toContain('Colombo');
+    expect(districts).toContain('Kandy');
+    expect(districts).toContain('Matara');
   });
 });
