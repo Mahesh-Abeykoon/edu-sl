@@ -2,10 +2,12 @@
 
 > Trilingual (**English**, **සිංහල**, **தமிழ்**) Sri Lanka universities, higher education institutes, and faculties dataset for TypeScript & JavaScript with zero runtime dependencies.
 
+[![CI](https://github.com/mahesh-abeykoon/edu-sl/actions/workflows/ci.yml/badge.svg)](https://github.com/mahesh-abeykoon/edu-sl/actions/workflows/ci.yml)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 [![Zero Dependencies](https://img.shields.io/badge/dependencies-0-brightgreen.svg)]()
 [![TypeScript](https://img.shields.io/badge/TypeScript-Ready-blue)]()
 [![Trilingual](https://img.shields.io/badge/languages-EN%20%7C%20SI%20%7C%20TA-orange)]()
+
 
 ---
 
@@ -128,8 +130,11 @@ export function UniversitySelectForm() {
 
 If you want to add a university, campus, new faculty, or update official contacts:
 1. Fork the repository on GitHub.
-2. Edit [`src/data/universities.json`](./src/data/universities.json).
-3. Submit a Pull Request!
+2. Review our [Contribution Guide (CONTRIBUTING.md)](./CONTRIBUTING.md) for full field specifications and schema template.
+3. Edit [`src/data/universities.json`](./src/data/universities.json).
+4. Run `npm test` to verify your changes.
+5. Submit a Pull Request!
+
 
 ---
 
