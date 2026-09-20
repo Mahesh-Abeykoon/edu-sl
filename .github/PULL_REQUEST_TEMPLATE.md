@@ -9,6 +9,7 @@
 - [ ] 🌐 Translation fix (English / Sinhala / Tamil)
 - [ ] 🐛 Bug fix / Code improvement
 - [ ] 📚 Documentation update
+- [ ] 🚀 Release / Version bump (`develop` ➔ `master`)
 
 ---
 
